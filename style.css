@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://josias30.github.io/Gianela/img/portada.jpg)
+}
+
+/*h2:hover{
+    transform: scale(1.5);
+    background-color: red;
+}*/
+
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  box-sizing: border-box;
+  
+}
+.padre {
+  position: relative;
+  border-radius: 10px;
+  width: 90%;
+  height: 80vh;
+  background-color: #212955;
+  box-sizing: border-box;
+  
+}
+#no {
+  position: absolute;
+  width: 4rem;
+  height: 3rem;
+  top: 70%;
+  right: 15%;
+  background-color: #e63946;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+#si {
+  position: absolute;
+  width: 4rem;
+  height: 3rem;
+  top: 70%;
+  left: 15%;
+  background-color: #06d6a0;
+  border: 2px solid red;
+  border-radius: 10%;
+  cursor: pointer;
+  
+}
+#si:hover{
+    transform: scale(2.5);
+    transition: 1s;
+    cursor: pointer;
+    font-family:cursive,monospace;
+    font-size: 30px;
+}
+.text {
+  position: relative;
+  /*top: 45%;
+  left: 5%;*/
+  color:firebrick;
+  height:900px;
+  width: 800px;
+  display: none;
+  font-size: 50px;
+  left: 5%;
+  background-image: url(nela.jpg);
+  border-radius: 15px;
+  font-family:cursive,monospace;
+  font-weight: bold;
+ 
+  
+  
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 2em;
+  font-size: 50px;
+  color: blue;
+}
+
+@media (max-width: 800px) {
+  .padre {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .centrar {
+    height: 100vh;
+  }
+}
